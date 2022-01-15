@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Lato&family=Poppins&family=Roboto:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    background-color: #f3f1ff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 10px;
+}
+.logo a{
+    text-decoration:none;
+    font-size: large;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+nav ul{
+    display: flex;
+    margin-top: 10px;
+
+}
+li{
+    text-decoration: none;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+   
+
+}
+header{
+    width: 90%;
+    margin: auto;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+/* =============hero section css part start======== */
+.hero-section{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 100px;
+
+}
+.hr-section-content{
+    width: 50%;
+    line-height: 25px;
+}
+.hr-section-title{
+    font-size: 50px;
+    line-height: 60px;
+}
+.hr-section-img{
+    width: 50%;
+   
+}
+.hr-section-img img{
+    height: 100%;
+    width: 70%;
+    margin-left: 150px;
+}
+button{
+    background-color: #e22e68;
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+button>a>i{
+    color: white;
+    padding-left: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+/* ====================company logo section css part */
+
+.company-logo-section{
+    margin-bottom: 100px;
+}
+.company-logo{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid rgb(243, 237, 237);
+    border-bottom: 2px solid rgb(243, 237, 237);
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+/* popular section--- */
+.popular-collection-section{
+    padding-bottom: 100px;
+}
+.collection-section-title{
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+.popular-section{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    margin: auto;
+}
+.popular-collection-item{
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.popular-collection-item img{
+    margin: 25px;
+}
+.itme-section-content{
+    margin: 25px;
+}
+.price{
+    font-weight: 700;
+    font-size: 20px;
+}
+.icon i{
+    color: #f28418;
+    
+}
