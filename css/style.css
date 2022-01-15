@@ -206,8 +206,6 @@ footer{
   .hr-section-img img{
     margin-top: 50px;
     display: block;
-    width: 100%;
-    margin-left: auto; 
   }
   .hr-section-content{
     display: block; 
@@ -219,19 +217,18 @@ footer{
     display: block;
   }
   .company-logo img{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
   }
   .company-logo-section{
-      margin-bottom: 40px;
+    margin-bottom: 40px;
   }
   .popular-section{
     display: block;
     width: 100%;
-    margin-top: 10px
-    ;
+    margin-top: 10px;
   }
   .popular-collection-item{
     margin-top: 15px;
@@ -241,7 +238,7 @@ footer{
     width: 100%;
   }
   .popular-collection-section{
-      margin-bottom: -40px;
+    margin-bottom: -40px;
   }
   .team{
     display: block;
@@ -251,21 +248,70 @@ footer{
     box-shadow: none;
   }
   .team-member{
-      height: min-content;
-      margin-top: 15px;
-      padding-top: 15px;
-      padding-bottom: 15px;
+    height: min-content;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   .team-section{
-      margin-bottom: -40px;
+    margin-bottom: -40px;
+  }
+  .footer {
+    width: 100%;
+  }
+  @media only screen and(min-width:689){
+  /* For Tablet Device: */
+  .hero-section{
+    width: 100%;
+    margin-bottom: 40px;
+    
+  }
+  .company-logo{
+    width: 100%;
+  }
+  .company-logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      margin-top: 20px;
+  }
+  .company-logo-section{
+    margin-bottom: 40px;
+  }
+  .popular-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    margin-top: 10px;
+  }
+  .popular-collection-item{
+    margin-top: 15px;
+    height: min-content;
+  }
+  .popular-section img{
+    width: 100%;
+  }
+  .popular-collection-section{
+    margin-bottom: -40px;
+  }
+  .team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .team-member:hover{
+    box-shadow: none;
+  }
+  .team-member{
+    height: min-content;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .team-section{
+    margin-bottom: -40px;
   }
   .footer {
     width: 100%;
   }
 
-}
-@media only screen and (min-width: 420px) {
-  /* For mobile phones: */
-  
-}
-
+} }
