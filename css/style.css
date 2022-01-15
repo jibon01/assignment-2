@@ -191,7 +191,7 @@ footer{
 }
 
 /* rwsponsive css part */
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 688px){
   /* For mobile phones: */
   .hero-section{
     width: 100%;
@@ -259,7 +259,9 @@ footer{
   .footer {
     width: 100%;
   }
-  @media only screen and(min-width:689){
+}
+
+@media only screen and (min-width: 689px){
   /* For Tablet Device: */
   .hero-section{
     width: 100%;
@@ -268,12 +270,6 @@ footer{
   }
   .company-logo{
     width: 100%;
-  }
-  .company-logo img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-      margin-top: 20px;
   }
   .company-logo-section{
     margin-bottom: 40px;
@@ -314,4 +310,4 @@ footer{
     width: 100%;
   }
 
-} }
+}
