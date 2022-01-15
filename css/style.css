@@ -153,6 +153,9 @@ button>a>i{
     width: 100%;
     height: 300px;
 }
+.team-member:hover{
+    box-shadow: 10px 10px 30px hsl(0, 26%, 73%);
+}
 .team-member img{
     width: 50%;
     display: block;
@@ -169,7 +172,6 @@ button>a>i{
     font-size: 25px;
     padding-top: 20px;
     color: rgb(115, 185, 250);
-    padding: 2px;
   
 }
 .social-link i:hover{
