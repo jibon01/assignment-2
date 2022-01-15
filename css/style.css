@@ -69,6 +69,10 @@ main{
     width: 50%;
    
 }
+.hr-section-img:hover{
+    transform: rotate(-55deg);
+    transition-duration: 4s ;
+}
 .hr-section-img img{
     height: 100%;
     width: 70%;
@@ -81,11 +85,15 @@ button{
     width: 150px;
     border-radius: 30px;
     margin-top: 20px;
+    transition: all 2s ease-out;
 }
 button a{
     text-decoration: none;
     color: white;
     font-size: 15px;
+}
+button:hover,:focus{
+    background-color: #333359;
 }
 button>a>i{
     color: white;
@@ -128,12 +136,13 @@ button>a>i{
     margin: auto;
 }
 .popular-collection-item{
-    width: 90%;
+    width: 100%;
     background-color: #ffffff;
     border-radius: 10px;
 }
 .popular-collection-item img{
-    margin: 25px;
+    width: 95%;
+    padding: 10px;
 }
 .itme-section-content{
     margin: 25px;
@@ -145,4 +154,14 @@ button>a>i{
 .icon i{
     color: #f28418;
     
+}
+.see-more{
+    text-align: right;
+    margin-top: 25px;
+    
+}
+.see-more a{
+    text-decoration: none;
+    color: #e22e68;
+    font-weight: 700;
 }
