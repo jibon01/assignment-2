@@ -40,9 +40,11 @@ main{
     width: 50%;
    
 }
-.hr-section-img:hover{
-    transform: rotate(-55deg);
-    transition-duration: 4s ;
+.hr-section-img img{
+   transition: width 10s linear, height 8s linear 2s, transform 3s;
+}
+.hr-section-img img:hover{
+    transform: rotatey(180deg);
 }
 .hr-section-img img{
     height: 100%;
@@ -189,29 +191,28 @@ footer{
 }
 
 /* rwsponsive css part */
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 688px) {
   /* For mobile phones: */
-  .logo-title{
-    text-align: center;
-  }
   .hero-section{
     width: 100%;
     display: block;
+    margin-bottom: 40px;
+    
   }
-  .hr-section-title{
-    display: flex;
+  .logo-title{
     text-align: center;
   }
+
   .hr-section-img img{
     margin-top: 50px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;  
+    width: 100%;
+    margin-left: auto; 
   }
-  button{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;  
+  .hr-section-content{
+    display: block; 
+    justify-content: flex-start;
+    margin-right: auto;
   }
   .company-logo{
     width: 100%;
@@ -223,6 +224,9 @@ footer{
       margin-right: auto;
       margin-top: 20px;
   }
+  .company-logo-section{
+      margin-bottom: 40px;
+  }
   .popular-section{
     display: block;
     width: 100%;
@@ -230,19 +234,38 @@ footer{
     ;
   }
   .popular-collection-item{
-    margin-top: 10px;
+    margin-top: 15px;
     height: min-content;
   }
   .popular-section img{
     width: 100%;
   }
+  .popular-collection-section{
+      margin-bottom: -40px;
+  }
   .team{
     display: block;
+    
   }
   .team-member:hover{
     box-shadow: none;
   }
+  .team-member{
+      height: min-content;
+      margin-top: 15px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+  .team-section{
+      margin-bottom: -40px;
+  }
   .footer {
     width: 100%;
   }
+
 }
+@media only screen and (min-width: 420px) {
+  /* For mobile phones: */
+  
+}
+
