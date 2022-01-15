@@ -8,39 +8,6 @@ body{
     letter-spacing: 1px;
     background-color: #f3f1ff;
 }
-nav{
-    display: flex;
-}
-.logo{
-    margin-top: 30px;
-}
-.logo a{
-    text-decoration:none;
-    font-size: large;
-    color: black;
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 30px;
-
-}
-nav ul{
-    display: flex;
-
-}
-li{
-    margin-left: 20px;
-    margin-top: 20px;
-    text-decoration: none;
-
-}
-ul>li>a{
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
-    font-size: 25px;
-   
-
-}
 header{
     width: 90%;
     margin: auto;
@@ -56,12 +23,17 @@ main{
     margin-bottom: 100px;
 
 }
+.logo-title{
+    font-size: 40px;
+    color: hsl(341, 84%, 63%);
+    font-weight: 700;
+}
 .hr-section-content{
     width: 50%;
     line-height: 25px;
 }
 .hr-section-title{
-    font-size: 40px;
+    font-size: 35px;
     line-height: 60px;
 }
 .hr-section-img{
@@ -140,11 +112,12 @@ button>a>i{
     border-radius: 10px;
 }
 .popular-collection-item img{
-    width: 95%;
     padding: 10px;
+    padding-right: 10px;
 }
 .itme-section-content{
-    margin: 25px;
+   padding: 10px;
+   
 }
 .price{
     font-weight: 700;
