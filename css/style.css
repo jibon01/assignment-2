@@ -117,7 +117,7 @@ button>a>i{
    padding: 10px;
    
 }
-.item-section-content img{
+.popular-collection-item img{
     width: 100%;
 }
 .price{
@@ -191,43 +191,37 @@ footer{
 /* rwsponsive css part */
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
-    .footer {
-    width: 100%;
-  }
   .logo-title{
     text-align: center;
   }
   .hero-section{
     width: 100%;
     display: block;
-    flex-direction: column-reverse;
-  }
-  .hr-section-content{
-      text-align: center;
   }
   .hr-section-title{
-      width: 100%;
-      display: block;
-      text-align: center;
+    display: flex;
+    text-align: center;
   }
   .hr-section-img img{
-      margin-top: 50px;
-      width: 100%;
-    
-    
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+  }
+  button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
   }
   .company-logo{
-      width: 100%;
-      display: block;
-      align-items: center;
-      grid-template-columns: repeat(2, 1fr);
-      margin: 3px;
-  }
-  .team{
+    width: 100%;
     display: block;
   }
-  .team-member:hover{
-    box-shadow: none;
+  .company-logo img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
   }
   .popular-section{
     display: block;
@@ -236,9 +230,19 @@ footer{
     ;
   }
   .popular-collection-item{
-      margin-top: 10px;
+    margin-top: 10px;
+    height: min-content;
   }
   .popular-section img{
-      width: 100%;
+    width: 100%;
+  }
+  .team{
+    display: block;
+  }
+  .team-member:hover{
+    box-shadow: none;
+  }
+  .footer {
+    width: 100%;
   }
 }
