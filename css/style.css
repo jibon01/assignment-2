@@ -113,11 +113,11 @@ button>a>i{
     border-radius: 10px;
     padding: 10px;
 }
-.itme-section-content{
+.item-section-content{
    padding: 10px;
    
 }
-.itme-section-content img{
+.item-section-content img{
     width: 100%;
 }
 .price{
@@ -152,7 +152,7 @@ button>a>i{
 .team-member{
     background-color: white;
     width: 100%;
-    height: 300px;
+    height: 350px;
 }
 .team-member:hover{
     box-shadow: 10px 10px 30px hsl(0, 26%, 73%);
@@ -189,3 +189,56 @@ footer{
 }
 
 /* rwsponsive css part */
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+    .footer {
+    width: 100%;
+  }
+  .logo-title{
+    text-align: center;
+  }
+  .hero-section{
+    width: 100%;
+    display: block;
+    flex-direction: column-reverse;
+  }
+  .hr-section-content{
+      text-align: center;
+  }
+  .hr-section-title{
+      width: 100%;
+      display: block;
+      text-align: center;
+  }
+  .hr-section-img img{
+      margin-top: 50px;
+      width: 100%;
+    
+    
+  }
+  .company-logo{
+      width: 100%;
+      display: block;
+      align-items: center;
+      grid-template-columns: repeat(2, 1fr);
+      margin: 3px;
+  }
+  .team{
+    display: block;
+  }
+  .team-member:hover{
+    box-shadow: none;
+  }
+  .popular-section{
+    display: block;
+    width: 100%;
+    margin-top: 10px
+    ;
+  }
+  .popular-collection-item{
+      margin-top: 10px;
+  }
+  .popular-section img{
+      width: 100%;
+  }
+}
